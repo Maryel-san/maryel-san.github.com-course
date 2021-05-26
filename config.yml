@@ -1,0 +1,18 @@
+title: Maryel-san.github.com
+description: >-
+  Página estática del Proyecto final de Fundamentos del Diseño Interactivo.
+  Portafolio de evidencias para ingenieros Productores musicales 
+template:
+  repo: maryel-san.github.com-template
+  name: maryel-san.github.com
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
